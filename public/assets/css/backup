@@ -1,0 +1,320 @@
+  .col-lg-8.col-md-8.col-sm-8{
+    margin-bottom: 15px;
+    padding: 0px;
+    position: relative
+  }
+  .container-admin > .header-berita {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        border-bottom: 1px solid black;
+    }
+    .header-berita h4, .header-berita i {
+        margin: 0;
+    }
+    .container-berita {
+        padding: 10px 5px;
+        display: inline-block;
+        justify-content: center;
+        width: 100%;
+    }
+    .container-berita > .nav{
+        padding: 0px;
+    }
+    .isi-berita {
+        padding: 0px 5px 0px 5px;
+        flex-grow: 1;
+        font-family: "arial";
+        /*text-align: justify;*/
+        word-spacing: 2px;
+        font-size: 17.5px;
+        line-height: 21px;
+    }
+    .gambar-berita {
+        border: 1px solid black;
+        float: left;
+        margin:0px 7px 10px 0px;
+        width: 350px;
+        height: 250px;
+    }
+    .isi-berita > p{
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+    .paragraf-berita {
+        margin: 12px 0;
+    }
+    .container-komentar{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #komentar-list {
+        max-height: 400px; /* Atur tinggi maksimal untuk mencegah elemen komentar yang terlalu besar */
+        overflow-y: auto; /* Tambahkan scrollbar jika ada terlalu banyak komentar */
+    }
+
+    /* creating css loader */
+
+#loader {
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid #9c41f2;
+    border-radius: 100%;
+    margin: 0px auto 10px auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+}
+#loader.display {
+    visibility: visible;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media only screen and (max-width: 600px) {
+  .gambar-berita {
+    width: 100%;
+  }
+.btn-check {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    /* Style the labels as buttons */
+    .btn.btn-secondary {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    /* Change the appearance when the radio button is checked */
+    .btn-check:checked + .btn-secondary {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+    }
+}
+   
+.col-lg-8.col-md-8.col-sm-8{
+    margin-bottom: 15px;
+    padding: 0px;
+    position: relative
+  }
+  div.container{
+    padding: 5px;
+  }
+  .container-admin > .header-berita {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+        border-bottom: 1px solid black;
+    }
+    .header-berita h4, .header-berita i {
+        margin: 0;
+    }
+    .container-berita {
+        padding: 10px 2px;
+        margin: auto;
+        display: inline-block;
+        justify-content: center;
+        /* border: 1px solid black; */
+        width: 100%; 
+    }
+    .container-berita > .nav{
+        padding: 0px;
+    }
+    .isi-berita {
+        padding: 0px 5px 0px 5px;
+        /* flex-grow: 1; */
+        font-family: "arial";
+        /*text-align: justify;*/
+        word-spacing: 1px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .gambar-berita {
+        float: left;
+        margin:0px 7px 10px 0px;
+        width: 350px;
+        height: 250px;
+    }
+    .fix-bg-image{
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+    }
+    .isi-berita > p{
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        hyphens: auto;
+    }
+    .paragraf-berita {
+        margin: 12px 0;
+    }
+    .container-komentar{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #komentar-list {
+        max-height: 400px; /* Atur tinggi maksimal untuk mencegah elemen komentar yang terlalu besar */
+        overflow-y: auto; /* Tambahkan scrollbar jika ada terlalu banyak komentar */
+    }
+
+    /* creating css loader */
+
+#loader {
+    width: 2rem;
+    height: 2rem;
+    border: 5px solid #f3f3f3;
+    border-top: 6px solid #9c41f2;
+    border-radius: 100%;
+    margin: 0px auto 10px auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+}
+#loader.display {
+    visibility: visible;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media only screen and (max-width: 600px) {
+  .container-berita.row{
+    width: 100%;
+  }
+  .gambar-berita {
+    width: 100%;
+  }
+
+.btn-check {
+        position: absolute;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    /* Style the labels as buttons */
+    .btn.btn-secondary {
+        display: inline-block;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    /* Change the appearance when the radio button is checked */
+    .btn-check:checked + .btn-secondary {
+        background-color: #007bff;
+        color: white;
+        border-color: #007bff;
+    }
+  }
+  .header_top{
+    padding-right: 15px
+  }
+    .header_top_right{
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-end;
+      height: 55px;
+      align-content:center;
+      position: relative;
+      /* padding: 10px 0px 0px 0px */
+    }
+    .header_top_right > div {
+      margin-right: 100px;
+      display: flex;
+      flex-direction: row;
+      align-self: center
+    }
+    .header_top_right > div > button{
+      margin: 0px;
+    }
+    .header_top_right > button{
+      border: 0px;
+      width: 40px;
+      height: 40px;
+      align-self: center;
+      background-color:#007bff;
+      color:rgb(189, 84, 84);
+      font-weight:bolder;
+      border-radius: 50%;
+      margin: 0px 0px 0px 20px;
+      position: absolute;
+    }
+    .header_top_right > button > span{
+      position: relative;
+    }
+
+    #login-cuy span{
+      left: -10px;
+    }
+
+    #logout-cuy{
+      display: none;
+      background-image: url("{{ asset('images/1721331846.jpg') }}");
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+    }
+
+    #logout-cuy span{
+      left: -40px;
+    }
+    @media only screen and (max-width: 780px){
+            .header_top{
+              padding-left: 10px;
+            }
+            .header_top_right{
+              width: 100%;
+            }
+            .header_top_right > div{
+              width: 100%;
+            }
+            .navbar.navbar-inverse{
+              justify-content: flex-end;
+            }
+          }
+          @media only screen and (min-width: 600px){
+             .nav.navbar-nav.main_nav{
+            flex-direction: row;
+          }
+          }
+    .modal-dialog, .formLogin{
+      z-index: inherit
+    }
+    .gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
+}
